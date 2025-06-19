@@ -39,12 +39,6 @@ git init
 git clone https://github.com/LaurentP03/Atividade-de-Pesquisa-sobre-investimentos.git
 ```
 
-Se preferir, você pode apenas clonar sem dar `git init`, pois o clone já cria um repositório Git local automaticamente:
-
-```bash
-git clone https://github.com/LaurentP03/Atividade-de-Pesquisa-sobre-investimentos.git
-```
-
 Depois de clonado, abra a pasta clonada no VS Code.
 
 ---
