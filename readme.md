@@ -24,8 +24,9 @@ Escolha um local no seu computador (exemplo: Desktop ou Documentos) e crie uma n
 ### 3. Abrir o terminal integrado no VS Code
 
 - Pressione as teclas:  
-  **Ctrl + `**  
-  (a tecla ` geralmente fica ao lado do número 1 no teclado)
+  **Ctrl + " **
+  
+  (a tecla " geralmente fica ao lado do número 1 no teclado)
 
 Isso abrirá o terminal na parte inferior do VS Code.
 
