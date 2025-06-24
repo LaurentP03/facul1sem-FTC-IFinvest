@@ -7,7 +7,17 @@ main {
     padding: 20px;
 }
 
-main h1 {
+.introducao {
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.introducao img {
+    width: 60%;
+}
+
+.introducao h1 {
     font-size: 30px;
     font-weight: bold;
     padding: 20px;
@@ -18,11 +28,7 @@ main h1 {
     font-size: 20px;
     font-weight: bold;
     padding: 20px 20px 20px 0px;
-}
-
-.introducao {
-    width: 940px;
-    margin: 0 auto;
+    text-align: start;
 }
 
 .introducao p {
@@ -39,5 +45,6 @@ main h1 {
 }
 
 .introducao li {
+    text-align: start;
     margin-bottom: 8px;
 }
