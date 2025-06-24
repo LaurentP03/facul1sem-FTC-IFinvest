@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,26 +9,104 @@
     <link rel="stylesheet" href="./stylesheet/style-geral.css">
     <link rel="stylesheet" href="./stylesheet/style-TesouroDireto.css">
 </head>
+
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="tesouroDireto.html">Tesouro Direto</a></li>
-                <li><a href="cdb.html">CDB</a></li>
-                <li><a href="poupanca.html">Poupança</a></li>
-                <li><a href="lci.html">LCI</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>
+                <img class="logo" src="./imagens-geral/logo.png" alt="Logo do site">
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="tesouroDireto.html">Tesouro Direto</a></li>
+                    <li><a href="cdb.html">CDB</a></li>
+                    <li><a href="poupanca.html">Poupança</a></li>
+                    <li><a href="lci.html">LCI</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
-        <!-- Usar sections no main!
-        Exemplos: -->
-        <section class="assuntoX"></section>
-        <section class="assuntoY"></section>
-        <section class="assuntoZ"></section>
+        <h1>
+            Tesouro Direto
+        </h1>
+        <section class="introducao">
+            <h3>
+                Introdução
+            </h3>
+            <p>
+                Este resumo compara o Tesouro Direto e o Certificado de Depósito Bancário (CDB), dois investimentos de
+                renda fixa populares no Brasil. Ambos permitem emprestar dinheiro em troca de juros, mas a quem se
+                empresta e as garantias variam. Abordaremos suas características, vantagens, desvantagens, e conceitos
+                como marcação a mercado e Fundo Garantidor de Crédito (FGC) para auxiliar na decisão de investimento.
+            </p>
+            <h3>
+                Tesouro Direto
+            </h3>
+            <p>
+                O Tesouro Direto, criado em 2002, democratiza o acesso a títulos públicos federais. Ao investir, você
+                empresta dinheiro ao governo e recebe de volta com juros. É considerado um dos investimentos mais
+                seguros do país, pois é garantido pelo próprio governo.
+            </p>
+            <h3>
+                Tipos de Títulos:
+            </h3>
+            <ul>
+                <li>
+                    <p>
+                        <b>Tesouro Selic (LFT)</b>: Rentabilidade pós-fixada (atrelada à Selic), ideal para reserva de emergência
+                        devido à alta segurança e liquidez diária (D+1).
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <b>Tesouro Prefixado (LTN)</b>: Rentabilidade fixa, definida na compra. Bom para quem busca previsibilidade,
+                        mas a venda antecipada pode gerar perdas ou ganhos devido à marcação a mercado [1].
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <b>Tesouro IPCA + (NTN-B)</b>: Rentabilidade híbrida (taxa fixa + IPCA), protege contra a inflação e garante
+                        ganho real no longo prazo.
+                    </p>
+                </li>
+            </ul>
+            <h3>
+                Vantagens:
+            </h3>
+            <ul>
+                <li>
+                    <b>Segurança</b>: Garantido pelo Tesouro Nacional (menor risco de crédito).
+                </li>
+                <li>
+                    <b>Acessibilidade</b>: Investimento a partir de R$30,00.
+                </li>
+                <li>
+                    <b>Liquidez</b>: Resgate diário (D+1).
+                </li>
+                <li>
+                    <b>Diversidade</b>: Opções para diferentes objetivos e prazos.
+                </li>
+            </ul>
+            <h3>
+                Desvantagens:
+            </h3>
+            <ul>
+                <li>
+                    <b>Risco de Mercado</b>: Venda antecipada de Prefixados e IPCA + sujeita à marcação a mercado [1].
+                </li>
+                <li>
+                    <b>Tributação</b>: Imposto de Renda regressivo.
+                </li>
+                <li>
+                    <b>Taxa de Custódia</b>: 0,25% a.a. pela B3 (isento para Tesouro Selic até R$10.000).
+                </li>
+            </ul>
+        </section>
     </main>
     <footer>
         <p>&copy;IFInvest 2025</p>
     </footer>
 </body>
+
 </html>

@@ -3,3 +3,41 @@
 ///MAIN///
 //////////
 */
+main {
+    padding: 20px;
+}
+
+main h1 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+}
+
+.introducao h3 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 20px 20px 0px;
+}
+
+.introducao {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.introducao p {
+    text-align: justify;
+}
+
+.introducao b {
+    font-weight: bold;
+}
+
+.introducao ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.introducao li {
+    margin-bottom: 8px;
+}
