@@ -1,5 +1,44 @@
-/* 
-//////////
-///MAIN///
-//////////
-*/
+/*-----------------------MAIN-----------------------------*/
+main {
+    padding: 20px;
+    background: linear-gradient(#ffffff, rgb(197, 194, 194));
+}
+
+.imgHome {
+    width: 60%;
+    padding: 20px;
+}
+
+.sobre {
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sobre h1 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+}
+
+.sobre h3 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 20px 20px 0px;
+    text-align: start;
+}
+
+.sobre p {
+    text-align: justify;
+}
+
+.sobre ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.sobre li {
+    text-align: start;
+    margin-bottom: 8px;
+}
