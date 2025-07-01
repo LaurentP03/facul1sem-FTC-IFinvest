@@ -12,7 +12,7 @@ body {
 //////////// 
 */
 header {
-    background: url("/imagens-geral/bg.png");
+    background: url("../imagens-geral/logo.png");
     padding: 20px 0;
 }
 
@@ -57,7 +57,7 @@ nav a:hover {
 */
 footer {
     text-align: center;
-    background: url("/imagens-geral/bg.png");
+    background: url("../imagens-geral/bg.png");
     padding: 40px 0px;
 }
 
