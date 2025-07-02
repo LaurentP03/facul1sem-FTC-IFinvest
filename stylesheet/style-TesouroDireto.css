@@ -1,0 +1,51 @@
+/* 
+//////////
+///MAIN///
+//////////
+*/
+main {
+    padding: 20px;
+    background: linear-gradient(#ffffff, #cccccc);
+}
+
+.introducao {
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.introducao img {
+    width: 60%;
+}
+
+.introducao h1 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+}
+
+.introducao h3 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 20px 20px 0px;
+    text-align: start;
+}
+
+.introducao p {
+    text-align: justify;
+}
+
+.introducao b {
+    font-weight: bold;
+}
+
+.introducao ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.introducao li {
+    text-align: start;
+    margin-bottom: 8px;
+}
