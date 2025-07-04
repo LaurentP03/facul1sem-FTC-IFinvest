@@ -3,3 +3,41 @@
 ///MAIN///
 //////////
 */
+body{
+    background: linear-gradient(white,rgb(183, 179, 179));
+}
+
+#imagemPoupança{
+    margin-left: 420px;
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.principal{
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.principal p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+div strong{
+    color: rgb(189, 22, 22);
+}
