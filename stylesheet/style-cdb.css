@@ -1,5 +1,38 @@
-/* 
-//////////
-///MAIN///
-//////////
-*/
+/*-----------------------MAIN-----------------------------*/
+main {
+    padding: 20px;
+    background: rgb(171, 205, 231);
+}
+section {
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section h1 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+}
+
+section h3 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 20px 20px 0px;
+    text-align: start;
+}
+
+section p {
+    text-align: justify;
+}
+
+section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+section li {
+    text-align: start;
+    margin-bottom: 8px;
+}
